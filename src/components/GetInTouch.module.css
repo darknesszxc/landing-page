@@ -1,0 +1,36 @@
+.getInTouchContainer{
+    @apply flex bg-[url('./assets/images/background.svg')] justify-center bg-cover bg-no-repeat mobile:h-[753px] tablet:h-[708px] desktop:h-[708px] w-full py-[64px] px-[10px] tablet:px-[39px] tablet:py-[70px] desktop:px-[258px] desktop:py-[70px]
+   
+}
+.formWrapper{
+    @apply flex mobile:justify-center tablet:justify-start mobile:w-[300px] mobile:h-[625px] mobile:rounded-[16px] tablet:w-[712px] tablet:h-[567px] desktop:w-[764px] desktop:h-[567px] bg-[#FFFFFF] shadow-md py-[48px] px-[21px] tablet:px-[32px] tablet:py-[48px] desktop:px-[48px] desktop:py-[48px]
+}
+.formTitle{
+    @apply font-montserrat font-semibold leading-[30px] text-[20px] text-black justify-center
+    tablet:font-bold tablet:text-[32px] tablet:leading-[48px]  tablet:text-left w-[290px] tablet:w-full
+}
+.formFields{
+    @apply flex w-full flex-col tablet:flex-row tablet:mt-[48px]
+}
+.labelName{
+    @apply flex flex-col mt-[36px] tablet:mt-0 tablet:w-[324px]
+}
+.labelTextName{
+    @apply font-montserrat font-semibold leading-[21px] text-[14px] text-black text-left tablet:text-[16px] tablet:leading-[24px]
+}
+.labelEmail{
+    @apply flex flex-col mt-[24px] tablet:mt-0 tablet:ml-[24px] tablet:w-[324px]
+}
+
+.labelTextEmail{
+@apply font-montserrat font-semibold leading-[21px] text-[14px] text-black text-left tablet:text-[16px] tablet:leading-[24px]}
+
+.labelArea{
+   @apply flex flex-col mt-[24px]
+}
+.labelTextArea{
+    @apply font-montserrat font-semibold leading-[21px] text-[14px] text-black text-left tablet:text-[16px] tablet:leading-[24px]
+}
+.textareaField{
+    @apply outline-none hover:border-lavender focus:border-lavender mt-[8px] w-[258px] tablet:w-[648px] desktop:w-[667px] h-[122px] py-[13px] px-[20px] gap-[10px] bg-white border border-grey-light rounded-[16px] placeholder-grey-dark placeholder:text-[14px] placeholder:leading-[21px] placeholder:font-normal placeholder:font-montserrat
+}

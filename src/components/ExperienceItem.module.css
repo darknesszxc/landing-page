@@ -1,0 +1,12 @@
+.experienceItem{
+    @apply flex flex-row border-b-[1px] border-grey-light py-[12px] tablet:pb-[32px] desktop:pt-[24px] desktop:pb-[32px]
+}
+.year{
+   @apply font-montserrat font-normal text-[14px] leading-[21px] text-grey-dark w-[120px] 
+          tablet:text-[20px] tablet:leading-[30px] tablet:w-[152px]
+}
+.details{
+    @apply font-montserrat font-normal text-[14px] leading-[21px] text-grey-dark ml-[4px] w-[166px]
+    tablet:text-[20px] tablet:leading-[30px] tablet:w-[331px] tablet:ml-[16px]
+
+}

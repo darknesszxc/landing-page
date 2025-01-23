@@ -1,0 +1,25 @@
+.container{
+    @apply min-h-[502px] flex flex-col tablet:px-[39px] tablet:flex-row desktop:flex-row
+    mobile:px-[15px] 
+    desktop:px-[85px] relative  overflow-hidden 
+    tablet:min-h-[455px]
+    desktop:min-h-[768px] 
+    w-full
+}
+.title{
+    @apply font-montserrat text-h3 font-bold  leading-[36px]  text-black mt-[27px] 
+    tablet:leading-[90px] tablet:text-[60px]  tablet:mt-[44px]
+    desktop:leading-[90px] desktop:text-[60px] desktop:mt-[162px]
+}
+.subtitle{
+    @apply font-montserrat   text-mobile-body  font-normal leading-[21px] text-grey-dark mt-1 
+    tablet:leading-[30px] tablet:text-[20px]
+}
+.separator{
+    @apply w-[25px] h-0 border-t-[3px] border-transparent  bg-lavender mt-[38px]
+    tablet:mt-[36px]
+    desktop:mt-[92px]
+}
+.description{
+    @apply font-montserrat   text-mobile-body  font-normal leading-[21px] text-grey-dark mt-[24px] tablet:leading-[30px] tablet:text-[20px] tablet:w-[60%]
+}

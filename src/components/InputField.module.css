@@ -1,0 +1,4 @@
+.inputField{
+    @apply w-[258px] tablet:w-[312px] desktop:w-[324px] outline-none text-sm  hover:border-lavender transition-all duration-300 ease-in-out block  bg-white border rounded-[16px] py-[13px] pl-[54px] pr-[20px] gap-[10px] mt-[8px] placeholder-grey-dark placeholder:text-[14px] placeholder:leading-[21px] placeholder:font-normal placeholder:font-montserrat
+}
+

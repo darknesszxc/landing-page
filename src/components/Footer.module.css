@@ -1,0 +1,15 @@
+.container{
+    @apply bg-white text-grey-dark shadow max-h-[64px] w-full
+}
+
+.navigation{
+@apply flex justify-between items-center  w-full  py-[22px]
+tablet:px-[39px] 
+mobile:px-[15px] 
+desktop:px-[85px] 
+font-montserrat
+font-normal
+text-[14px]
+leading-[21px]
+tablet:text-[16px]
+}

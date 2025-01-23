@@ -1,0 +1,10 @@
+.educationExperience{
+    @apply pb-[100px] desktop:w-full
+}
+.heading{
+    @apply mt-[48px] font-montserrat font-semibold leading-[30px] text-[20px] text-black mb-[28px]
+    tablet:mt-[80px] tablet:text-[24px] tablet:font-bold tablet:leading-[36px] tablet:mb-[44px]  desktop:mb-[18px] desktop:mt-0
+}
+.experienceList{
+    @apply flex flex-col
+}

@@ -1,0 +1,7 @@
+.icon{
+    @apply border-solid border-lavender  border-2 rounded-full text-center w-[44px] h-[44px] p-[10px]
+    tablet:w-[60px] tablet:h-[60px]
+}
+.description{
+   @apply font-montserrat font-normal text-[14px] leading-[21px] text-grey-dark ml-[8px] tablet:text-[20px] tablet:leading-[30px] tablet:ml-[16px] 
+}

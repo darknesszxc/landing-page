@@ -1,0 +1,6 @@
+.container{
+    @apply flex flex-col  text-left h-auto w-full max-w-full  mobile:px-[15px] desktop:px-[85px] tablet:px-[39px]
+}
+.containerSection{
+    @apply desktop:flex desktop:flex-row desktop:gap-[217px]
+}

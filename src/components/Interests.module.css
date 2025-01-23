@@ -1,0 +1,5 @@
+.title{
+   @apply  font-montserrat font-semibold leading-[30px] text-[20px] text-black
+    tablet:font-bold tablet:text-[24px]
+
+}
