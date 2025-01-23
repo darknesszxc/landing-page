@@ -6,6 +6,7 @@ Make sure you have git and Node installed.
 
 ```shell
 git clone https://github.com/darknesszxc/landing-page.git
+cd landing-page
 npm install
 ```
 
@@ -15,7 +16,7 @@ To run the server use following command
 npm run dev
 ```
 
-Then open http://localhost:5173 in your browser
+Then open http://localhost:5173/landing-page/ in your browser
 
 
 
