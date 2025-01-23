@@ -1,5 +1,5 @@
 .getInTouchContainer{
-    @apply flex bg-[url('./assets/images/background.svg')] justify-center bg-cover bg-no-repeat mobile:h-[753px] tablet:h-[708px] desktop:h-[708px] w-full py-[64px] px-[10px] tablet:px-[39px] tablet:py-[70px] desktop:px-[258px] desktop:py-[70px]
+    @apply flex bg-[url('/landing-page/assets/images/background.svg')] justify-center bg-cover bg-no-repeat mobile:h-[753px] tablet:h-[708px] desktop:h-[708px] w-full py-[64px] px-[10px] tablet:px-[39px] tablet:py-[70px] desktop:px-[258px] desktop:py-[70px]
    
 }
 .formWrapper{
