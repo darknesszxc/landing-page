@@ -2,6 +2,7 @@
 
 ## To install the project use the following code.
 
+## Deploy gh-pages: https://darknesszxc.github.io/landing-page/
 Make sure you have git and Node installed.
 
 ```shell
